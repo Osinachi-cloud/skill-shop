@@ -1,9 +1,9 @@
 import React from "react";
 import CenterHeader from "./HeaderChildren.jsx/CenterHeader";
-import LeftHeader from "./HeaderChildren.jsx/LeftHeader";
 import RightHeader from "./HeaderChildren.jsx/RightHeader";
 import Grid from "@material-ui/core/Grid";
 import Box from "@mui/material/Box";
+import LeftHeader from "./HeaderChildren.jsx/LeftHeader";
 
 const Header = () => {
   return (
@@ -27,19 +27,19 @@ const Header = () => {
       <Grid
         container
         direction="row"
-        justifyContent="center"
+        justifyContent="space-around"
         alignItems="center"
         height={100}
         rowSpacing={2}
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
       >
-        <Grid item xs={3}>
-          <LeftHeader />
+        <Grid item xs={1.5}>
+            <LeftHeader/>
         </Grid>
         <Grid item xs={6}>
           <CenterHeader />
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={4.5}>
           <RightHeader />
         </Grid>
       </Grid>
