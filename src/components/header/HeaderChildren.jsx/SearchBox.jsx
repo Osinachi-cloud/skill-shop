@@ -2,6 +2,10 @@ import React from 'react';
 
 import SearchIcon from '@mui/icons-material/Search'
 import {createUseStyles} from 'react-jss'
+import Button from "@mui/material/Button";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+
+
 
   
 const styles = createUseStyles({
@@ -41,12 +45,18 @@ const classes = styles()
           <form>
                     <div className={classes.searchBg}>
                     <input type="text" placeholder="search" className={classes.input} />
+
+                    <Button>
                      <SearchIcon/>
+
+
+                    </Button>
                     </div>
                     
 
               
         </form>
+            
      
     </div>
   );

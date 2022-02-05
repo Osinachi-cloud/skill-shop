@@ -1,13 +1,19 @@
-import { AppBar } from '@material-ui/core';
-import './App.css';
-import Header from './components/header/Header';
+import "./App.css";
+import Header from "./components/header/Header";
+import Leftbar from "./components/main/LeftBar";
 
-const App =()=> {
+const App = () => {
   return (
     <div className="App">
-        <Header/>
+      <Header />
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ flex: "0.2" }}>
+          <Leftbar />
+        </div>
+        <div style={{ flex: "0.8" }}>hello</div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
