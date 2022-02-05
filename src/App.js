@@ -10,7 +10,7 @@ const App = () => {
         <div style={{ flex: "0.2" }}>
           <Leftbar />
         </div>
-        <div style={{ flex: "0.8" }}>hello</div>
+        <div style={{ flex: "0.8", borderTop:'1px solid #ece7e7' }}></div>
       </div>
     </div>
   );

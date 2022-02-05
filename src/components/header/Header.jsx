@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <Box
       sx={{
-        boxShadow: 3,
+        boxShadow: 0,
           width: '100%',
         // height: "3rem",
         bgcolor: (theme) =>

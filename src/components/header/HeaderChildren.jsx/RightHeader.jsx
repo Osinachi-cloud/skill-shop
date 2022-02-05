@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import LeftHeader from "./LeftHeader";
 import createUseStyles from "react-jss";
 import SearchBox from "./SearchBox";
+import Switch from '@mui/material/Switch';
 
 const styles = createUseStyles({
   container: {
@@ -35,7 +36,8 @@ const RightHeader = () => {
         </Grid>
 
         <Grid item xs={1} sm={1} md={1} lg={1}>
-          <DarkModeIcon />
+          {/* <DarkModeIcon /> */}
+          <Switch/>
           
         </Grid>
 
