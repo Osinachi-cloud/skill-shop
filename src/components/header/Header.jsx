@@ -1,9 +1,9 @@
 import React from "react";
-import CenterHeader from "./HeaderChildren.jsx/CenterHeader";
-import RightHeader from "./HeaderChildren.jsx/RightHeader";
+import CenterHeader from "./HeaderChildren/CenterHeader";
+import RightHeader from "./HeaderChildren/RightHeader";
 import Grid from "@material-ui/core/Grid";
 import Box from "@mui/material/Box";
-import LeftHeader from "./HeaderChildren.jsx/LeftHeader";
+import LeftHeader from "./HeaderChildren/LeftHeader";
 
 const Header = () => {
   return (
